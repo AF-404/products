@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
+
+import { Route } from "react-router-dom";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import Home from "./components/pages/Home";
+
 function App() {
-  return (
-      //display-4 means the font size
-    <div className="display-4">
-        Welcome to products
-    </div>
-  );
+  return <Route path="/" component = {Home}/>;
 }
 
 export default App;
