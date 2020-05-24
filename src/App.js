@@ -5,6 +5,7 @@ import './App.css';
 
 import Home from "./components/pages/Home";
 
+//nnew 
 function App() {
   return (
       <div >
